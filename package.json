@@ -1,8 +1,8 @@
 {
-  "name": "@trilom/file-changes-action",
+  "name": "@dmitry-prohorov/file-changes-action",
   "version": "1.2.4",
   "engines": {
-    "node": "12.16.3"
+    "node": ">=12.16.3"
   },
   "description": "Creates outputs variables of files modified, added, or removed by a PR or Push.",
   "main": "lib/main.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/trilom/file-changes-action.git"
+    "url": "git+https://github.com/dmitry-prohorov/file-changes-action.git"
   },
   "keywords": [
     "actions",
@@ -45,23 +45,24 @@
     "@typescript-eslint/eslint-plugin": "^2.24.0",
     "@typescript-eslint/parser": "^2.24.0",
     "@zeit/ncc": "^0.20.5",
-    "codecov": "^3.6.5",
+    "codecov": "^3.7.2",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-typescript": "^7.0.0",
     "eslint-config-prettier": "^6.10.0",
-    "eslint-import-resolver-typescript": "^2.0.0",
-    "eslint-plugin-eslint-comments": "^3.1.2",
-    "eslint-plugin-import": "^2.20.1",
-    "eslint-plugin-jest": "^23.8.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-import-resolver-typescript": "^2.2.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
     "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react": "^7.20.5",
     "eslint-plugin-react-hooks": "^2.5.0",
     "eslint-plugin-unicorn": "^17.2.0",
-    "jest": "^24.9.0",
-    "jest-circus": "^24.9.0",
+    "jest": "^26.3.0",
+    "jest-circus": "^26.3.0",
     "prettier": "^1.19.1",
-    "ts-jest": "^24.3.0",
-    "typescript": "^3.8.3"
+    "ts-jest": "^26.2.0",
+    "typescript": "^3.9.7",
+    "yarn": "^1.22.4"
   }
 }
