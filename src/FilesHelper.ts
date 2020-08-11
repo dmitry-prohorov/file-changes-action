@@ -20,7 +20,7 @@ export function sortChangedFiles(files: GitHubFile[]): ChangedFiles {
       removed: [],
       renamed: [],
       modified: [],
-      previous_filename: []
+      previous: []
     } as ChangedFiles
     files.forEach(f => {
       changedFiles[f.status].push(
@@ -31,7 +31,7 @@ export function sortChangedFiles(files: GitHubFile[]): ChangedFiles {
       )
 
       if (f.status === 'renamed') {
-        changedFiles.previous_filename.push(f.previous_filename)
+        changedFiles.previous.push(f.previous_filename)
       }
     })
     return changedFiles
